@@ -1,0 +1,23 @@
+{
+  "name": "csr/app",
+  "description": "App with CSR Framework",
+  "type": "project",
+  "version": "v0.1",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Csr\\App\\": "src/",
+      "Csr\\App\\Controllers\\": "src/controllers/"
+    }
+  },
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "vitalii-pokrivchak",
+      "email": "pokrivchakzvitalja@gmail.com"
+    }
+  ],
+  "require": {
+    "csr/framework": "v0.1"
+  }
+}
