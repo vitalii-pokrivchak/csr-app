@@ -17,6 +17,6 @@
     }
   ],
   "require": {
-    "csr/framework": "v0.1.1"
+    "csr/framework": "v0.1.2"
   }
 }
