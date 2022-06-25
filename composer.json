@@ -22,9 +22,8 @@
   },
   "scripts": {
     "post-create-project-cmd": [
-      "php -r \"rmdir(__DIR__ . '/.git');\"",
       "php -r \"unlink(__DIR__ . '/LICENSE');\"",
-      "php -r \"unlink(__DIR__ . '/README.md')\""
+      "php -r \"unlink(__DIR__ . '/README.md');\""
     ]
   }
 }
