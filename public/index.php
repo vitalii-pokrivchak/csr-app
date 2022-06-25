@@ -11,7 +11,6 @@ require_once __DIR__ . '/../src/routes.php';
     $this->builder->withConfig(__DIR__ . '/../..')
         ->withTemplate(
             __DIR__ . '/../src/views/',
-            __DIR__ . '/../src/cache/',
             FenomProvider::class
         );
 });

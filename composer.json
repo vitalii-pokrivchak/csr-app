@@ -6,7 +6,8 @@
   "autoload": {
     "psr-4": {
       "Csr\\App\\": "src/",
-      "Csr\\App\\Controllers\\": "src/controllers/"
+      "Csr\\App\\Controllers\\": "src/controllers/",
+      "Csr\\App\\Middlewares\\": "src/middlewares/"
     }
   },
   "minimum-stability": "dev",
