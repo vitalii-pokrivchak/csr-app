@@ -19,5 +19,12 @@
   ],
   "require": {
     "csr/framework": "v0.1.4"
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "php -r \"rmdir('.git');\"",
+      "php -r \"unlink('LICENSE');\"",
+      "php -r \"unlink('README.md')\""
+    ]
   }
 }
