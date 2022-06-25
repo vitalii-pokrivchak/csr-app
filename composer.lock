@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vitalii-pokrivchak/csr-framework.git",
-                "reference": "b22a296e7bef04ac9262391ac24f7e981558b52b"
+                "reference": "3a69894b53492054bb5c69b92aed1df30ffc854a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vitalii-pokrivchak/csr-framework/zipball/b22a296e7bef04ac9262391ac24f7e981558b52b",
-                "reference": "b22a296e7bef04ac9262391ac24f7e981558b52b",
+                "url": "https://api.github.com/repos/vitalii-pokrivchak/csr-framework/zipball/3a69894b53492054bb5c69b92aed1df30ffc854a",
+                "reference": "3a69894b53492054bb5c69b92aed1df30ffc854a",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "issues": "https://github.com/vitalii-pokrivchak/csr-framework/issues",
                 "source": "https://github.com/vitalii-pokrivchak/csr-framework/tree/v0.1.3"
             },
-            "time": "2022-06-25T10:16:05+00:00"
+            "time": "2022-06-25T10:22:39+00:00"
         },
         {
             "name": "fenom/fenom",
