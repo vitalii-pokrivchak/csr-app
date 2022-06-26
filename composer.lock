@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f54239e2fb30ff92f1071c725d834f47",
+    "content-hash": "eff95d8a4e7c217306d13152d5594fba",
     "packages": [
         {
             "name": "csr/framework",
-            "version": "v0.1.6",
+            "version": "v0.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vitalii-pokrivchak/csr-framework.git",
-                "reference": "922cb4b1c1326f9a4c4e12fd235f0782082e5a30"
+                "reference": "94fa34a8402412c1b5cbdeca53fe9ee03af9d450"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vitalii-pokrivchak/csr-framework/zipball/922cb4b1c1326f9a4c4e12fd235f0782082e5a30",
-                "reference": "922cb4b1c1326f9a4c4e12fd235f0782082e5a30",
+                "url": "https://api.github.com/repos/vitalii-pokrivchak/csr-framework/zipball/94fa34a8402412c1b5cbdeca53fe9ee03af9d450",
+                "reference": "94fa34a8402412c1b5cbdeca53fe9ee03af9d450",
                 "shasum": ""
             },
             "require": {
@@ -49,9 +49,9 @@
             "homepage": "https://github.com/vitalii-pokrivchak/framework",
             "support": {
                 "issues": "https://github.com/vitalii-pokrivchak/csr-framework/issues",
-                "source": "https://github.com/vitalii-pokrivchak/csr-framework/tree/v0.1.6"
+                "source": "https://github.com/vitalii-pokrivchak/csr-framework/tree/v0.1.7"
             },
-            "time": "2022-06-26T12:17:18+00:00"
+            "time": "2022-06-26T15:54:57+00:00"
         },
         {
             "name": "fenom/fenom",

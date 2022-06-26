@@ -8,6 +8,6 @@ class HomeController extends HttpController
 {
     public function index()
     {
-        return $this->view('home.tpl');
+        return $this->view('home.twig');
     }
 }

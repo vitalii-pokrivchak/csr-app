@@ -1,16 +1,17 @@
 <?php
 
+use Csr\App\Controllers\HomeController;
 use Csr\Framework\Kernel\Kernel;
-use Csr\Framework\Template\FenomProvider;
+use Csr\Framework\Router\Route;
 
 require_once __DIR__ . '/../vendor/autoload.php';
-require_once __DIR__ . '/../src/routes.php';
 
-(new Kernel)->build(function () {
+Route::get('/', [HomeController::class, 'index']);
+Route::storage('/assets/{path}', __DIR__ . '/../src/assets/');
+
+Kernel::build(function () {
     /** @var Kernel $this */
-    $this->builder->withConfig(__DIR__ . '/../..')
-        ->withTemplate(
-            __DIR__ . '/../src/views/',
-            FenomProvider::class
-        );
+    $this->config(__DIR__ . '/../..')
+        ->template(__DIR__ . '/../src/views/');
 });
+
