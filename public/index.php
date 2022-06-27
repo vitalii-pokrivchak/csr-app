@@ -1,12 +1,11 @@
 <?php
 
-use Csr\App\Controllers\HomeController;
 use Csr\Framework\Kernel\Kernel;
 use Csr\Framework\Router\Route;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-Route::get('/', [HomeController::class, 'index']);
+Route::view('/', 'home.twig');
 Route::storage('/assets/{path}', __DIR__ . '/../src/assets/');
 
 Kernel::build(function () {
