@@ -10,7 +10,7 @@ Route::storage('/assets/{path}', __DIR__ . '/../src/assets/');
 
 Kernel::build(function () {
     /** @var Kernel $this */
-    $this->config(__DIR__ . '/../..')
+    $this->config(__DIR__ . '/../')
         ->template(__DIR__ . '/../src/views/');
 });
 

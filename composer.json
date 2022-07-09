@@ -18,7 +18,7 @@
     }
   ],
   "require": {
-    "csr/framework": "v0.2.1"
+    "csr/framework": "v0.2.2"
   },
   "scripts": {
     "post-create-project-cmd": [
