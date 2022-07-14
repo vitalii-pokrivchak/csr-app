@@ -4,26 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c989b0aef96c567b0ad091de93203d7",
+    "content-hash": "13e8159dab279ca5fc63776ed109d9e6",
     "packages": [
         {
             "name": "csr/framework",
-            "version": "v0.2.2",
+            "version": "v0.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vitalii-pokrivchak/csr-framework.git",
-                "reference": "407099c59faf780bb3a4e3e93daa58136b9bbe9b"
+                "reference": "2f0df8ef8a96eb884ccb4f907874d0d66cfce333"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vitalii-pokrivchak/csr-framework/zipball/407099c59faf780bb3a4e3e93daa58136b9bbe9b",
-                "reference": "407099c59faf780bb3a4e3e93daa58136b9bbe9b",
+                "url": "https://api.github.com/repos/vitalii-pokrivchak/csr-framework/zipball/2f0df8ef8a96eb884ccb4f907874d0d66cfce333",
+                "reference": "2f0df8ef8a96eb884ccb4f907874d0d66cfce333",
                 "shasum": ""
             },
             "require": {
                 "doctrine/annotations": "1.13.2",
-                "doctrine/dbal": "^3.2",
-                "doctrine/orm": "^2.11.0",
+                "doctrine/dbal": "3.4.x-dev",
+                "doctrine/orm": "2.13.x-dev",
                 "ext-fileinfo": "*",
                 "ext-json": "*",
                 "fenom/fenom": "2.12.1",
@@ -53,9 +53,9 @@
             "homepage": "https://github.com/vitalii-pokrivchak/framework",
             "support": {
                 "issues": "https://github.com/vitalii-pokrivchak/csr-framework/issues",
-                "source": "https://github.com/vitalii-pokrivchak/csr-framework/tree/v0.2.2"
+                "source": "https://github.com/vitalii-pokrivchak/csr-framework/tree/v0.2.5"
             },
-            "time": "2022-07-09T18:09:29+00:00"
+            "time": "2022-07-14T12:19:03+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -229,12 +229,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "c7ad5f94dd8e922957cda1a6348d11a5ca919f44"
+                "reference": "d84715fa080a32f76a68200eb015587d99f4675e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/c7ad5f94dd8e922957cda1a6348d11a5ca919f44",
-                "reference": "c7ad5f94dd8e922957cda1a6348d11a5ca919f44",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/d84715fa080a32f76a68200eb015587d99f4675e",
+                "reference": "d84715fa080a32f76a68200eb015587d99f4675e",
                 "shasum": ""
             },
             "require": {
@@ -242,9 +242,9 @@
             },
             "require-dev": {
                 "doctrine/coding-standard": "^9.0",
-                "phpstan/phpstan": "^1",
+                "phpstan/phpstan": "^1.4.8",
                 "phpunit/phpunit": "^7.5 || ^8.5 || ^9.1.5",
-                "vimeo/psalm": "^4.2.1"
+                "vimeo/psalm": "^4.22"
             },
             "type": "library",
             "autoload": {
@@ -290,7 +290,7 @@
                 "issues": "https://github.com/doctrine/collections/issues",
                 "source": "https://github.com/doctrine/collections/tree/1.7.x"
             },
-            "time": "2021-12-29T22:40:48+00:00"
+            "time": "2022-07-13T14:49:40+00:00"
         },
         {
             "name": "doctrine/common",
@@ -389,12 +389,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "497779a508394ea070dda202e88f998946825c74"
+                "reference": "8dd07d12f66411914c82305774b469362842807a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/497779a508394ea070dda202e88f998946825c74",
-                "reference": "497779a508394ea070dda202e88f998946825c74",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/8dd07d12f66411914c82305774b469362842807a",
+                "reference": "8dd07d12f66411914c82305774b469362842807a",
                 "shasum": ""
             },
             "require": {
@@ -492,7 +492,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-09T17:15:53+00:00"
+            "time": "2022-07-09T19:59:07+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -871,12 +871,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/orm.git",
-                "reference": "1538d70bb9a979fb148309a541e3d084c652b204"
+                "reference": "48b4f63f614be42e27a78e27604e54e8c1cecd17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/orm/zipball/1538d70bb9a979fb148309a541e3d084c652b204",
-                "reference": "1538d70bb9a979fb148309a541e3d084c652b204",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/48b4f63f614be42e27a78e27604e54e8c1cecd17",
+                "reference": "48b4f63f614be42e27a78e27604e54e8c1cecd17",
                 "shasum": ""
             },
             "require": {
@@ -963,7 +963,7 @@
                 "issues": "https://github.com/doctrine/orm/issues",
                 "source": "https://github.com/doctrine/orm/tree/2.13.x"
             },
-            "time": "2022-07-08T11:54:43+00:00"
+            "time": "2022-07-10T21:18:39+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -2957,7 +2957,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "7.4.*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
 }

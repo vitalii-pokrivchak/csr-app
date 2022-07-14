@@ -18,7 +18,8 @@
     }
   ],
   "require": {
-    "csr/framework": "v0.2.2"
+    "php": "7.4.*",
+    "csr/framework": "v0.2.5"
   },
   "scripts": {
     "post-create-project-cmd": [
