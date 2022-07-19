@@ -13,4 +13,3 @@ Kernel::build(function () {
     $this->config(__DIR__ . '/../')
         ->template(__DIR__ . '/../src/views/');
 });
-
