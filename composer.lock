@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "674370e6a298eb1eea5032989c41d72c",
+    "content-hash": "4f86a25b1b88e351f7e92d89161d8938",
     "packages": [
         {
             "name": "csr/framework",
-            "version": "v0.3.2",
+            "version": "v0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vitalii-pokrivchak/csr-framework.git",
-                "reference": "09a109bf6917dd7abb745d5371dbea42b751fe78"
+                "reference": "c1819c92639c2cf1855e159930aea673d965c0e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vitalii-pokrivchak/csr-framework/zipball/09a109bf6917dd7abb745d5371dbea42b751fe78",
-                "reference": "09a109bf6917dd7abb745d5371dbea42b751fe78",
+                "url": "https://api.github.com/repos/vitalii-pokrivchak/csr-framework/zipball/c1819c92639c2cf1855e159930aea673d965c0e1",
+                "reference": "c1819c92639c2cf1855e159930aea673d965c0e1",
                 "shasum": ""
             },
             "require": {
@@ -54,9 +54,9 @@
             "homepage": "https://github.com/vitalii-pokrivchak/framework",
             "support": {
                 "issues": "https://github.com/vitalii-pokrivchak/csr-framework/issues",
-                "source": "https://github.com/vitalii-pokrivchak/csr-framework/tree/v0.3.2"
+                "source": "https://github.com/vitalii-pokrivchak/csr-framework/tree/v0.3.3"
             },
-            "time": "2022-07-21T10:50:21+00:00"
+            "time": "2022-07-21T12:50:59+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -390,12 +390,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "25c27dd7d7bad231ded889785581f1f2694f1362"
+                "reference": "647871b7557de42b55f3a4a7570c74b617f355f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/25c27dd7d7bad231ded889785581f1f2694f1362",
-                "reference": "25c27dd7d7bad231ded889785581f1f2694f1362",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/647871b7557de42b55f3a4a7570c74b617f355f6",
+                "reference": "647871b7557de42b55f3a4a7570c74b617f355f6",
                 "shasum": ""
             },
             "require": {
@@ -493,7 +493,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-16T21:06:03+00:00"
+            "time": "2022-07-21T00:38:41+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -872,12 +872,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/orm.git",
-                "reference": "c125a856d0b2ad09b72e2c0f3755f96d7a212ee1"
+                "reference": "2da28703e303ac2671480ca27d9413b78a0fe78d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/orm/zipball/c125a856d0b2ad09b72e2c0f3755f96d7a212ee1",
-                "reference": "c125a856d0b2ad09b72e2c0f3755f96d7a212ee1",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/2da28703e303ac2671480ca27d9413b78a0fe78d",
+                "reference": "2da28703e303ac2671480ca27d9413b78a0fe78d",
                 "shasum": ""
             },
             "require": {
@@ -964,7 +964,7 @@
                 "issues": "https://github.com/doctrine/orm/issues",
                 "source": "https://github.com/doctrine/orm/tree/2.13.x"
             },
-            "time": "2022-07-18T21:00:38+00:00"
+            "time": "2022-07-19T21:13:51+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -1889,12 +1889,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "f29023ceb92d7e8e700499943d37f3624814c9ab"
+                "reference": "d81a3988cc2c8c32569596247830a717268dcefb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/f29023ceb92d7e8e700499943d37f3624814c9ab",
-                "reference": "f29023ceb92d7e8e700499943d37f3624814c9ab",
+                "url": "https://api.github.com/repos/symfony/console/zipball/d81a3988cc2c8c32569596247830a717268dcefb",
+                "reference": "d81a3988cc2c8c32569596247830a717268dcefb",
                 "shasum": ""
             },
             "require": {
@@ -1980,7 +1980,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-07T07:35:58+00:00"
+            "time": "2022-07-20T13:00:38+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2713,12 +2713,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "2deaa793be3b0030496459992882784c979e9b38"
+                "reference": "9091cb2b47dce39480b6e9c9911b4def8756f886"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/2deaa793be3b0030496459992882784c979e9b38",
-                "reference": "2deaa793be3b0030496459992882784c979e9b38",
+                "url": "https://api.github.com/repos/symfony/string/zipball/9091cb2b47dce39480b6e9c9911b4def8756f886",
+                "reference": "9091cb2b47dce39480b6e9c9911b4def8756f886",
                 "shasum": ""
             },
             "require": {
@@ -2791,7 +2791,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-27T16:58:25+00:00"
+            "time": "2022-07-20T13:00:38+00:00"
         },
         {
             "name": "symfony/var-exporter",
