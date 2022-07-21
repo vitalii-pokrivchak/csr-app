@@ -25,7 +25,8 @@
     "post-create-project-cmd": [
       "php -r \"unlink(__DIR__ . '/LICENSE');\"",
       "php -r \"unlink(__DIR__ . '/README.md');\"",
-      "php -r \"copy(__DIR__ . '.env.example', __DIR__ . '.env');\""
+      "php -r \"copy(__DIR__ . '/.env.example', __DIR__ . '/.env');\"",
+      "php -r \"unlink(__DIR__ . '/.env.example');\""
     ]
   }
 }
