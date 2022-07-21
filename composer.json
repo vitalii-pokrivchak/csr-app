@@ -5,9 +5,9 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Csr\\App\\": "src/",
-      "Csr\\App\\Controllers\\": "src/controllers/",
-      "Csr\\App\\Middlewares\\": "src/middlewares/"
+      "App\\": "src/",
+      "App\\Controllers\\": "src/controllers/",
+      "App\\Middlewares\\": "src/middlewares/"
     }
   },
   "minimum-stability": "dev",
@@ -19,12 +19,13 @@
   ],
   "require": {
     "php": "7.4.*",
-    "csr/framework": "v0.3.1"
+    "csr/framework": "v0.3.2"
   },
   "scripts": {
     "post-create-project-cmd": [
       "php -r \"unlink(__DIR__ . '/LICENSE');\"",
-      "php -r \"unlink(__DIR__ . '/README.md');\""
+      "php -r \"unlink(__DIR__ . '/README.md');\"",
+      "php -r \"copy(__DIR__ . '.env.example', __DIR__ . '.env');\""
     ]
   }
 }
